@@ -1,0 +1,88 @@
+*{
+   font-family: 'Poppins', sans-serif;
+   font-family: 'Roboto Mono', monospace;
+}
+  
+body{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   background-image:url(/assests/pexels-maxyne-barcel-10402282.jpg);
+   background-repeat: no-repeat;
+   background-size:cover;
+}
+header{
+    display: flex;
+}
+.logo{
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 30%;
+    display: flex;
+    flex-direction: column;
+}
+header ul{
+    display: flex;
+    font-size: 20px;
+    text-decoration: none; 
+    margin-left: 25%;
+    padding-left: 10px;
+}
+header ul li{
+   padding-right:70px ;
+   font-weight: 600;
+   color:#ffc233 ;
+   list-style: none;
+   text-decoration: none;
+   text-emphasis: none;
+   text-shadow: none;
+}
+ .orderButton{
+    padding-top: 9px;
+    text-align: center;
+    display: flex;
+    margin-left: 25%;
+    margin-right: 10%;
+    margin-top: 10px;
+    width: 120px;
+    height: 40px;
+    background-color: #ff515f;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 4px 9px 2px 2px; 
+}
+main{
+    margin-left: 40%;
+    display: flex;
+    flex-direction: column;
+}
+main h1{
+    color: #fabf33;
+    font: 700;
+    font: weight 1000px;
+    margin-right: 60%;
+    font-size: 50px;
+    margin-top: 10%;
+}
+.menuButton{
+   background-color:#ff515f;
+   color: white;
+   width: 240px;
+   height: 40px;
+   font-size: 15px;
+   font-weight: 700;
+   margin-left: 40px;
+}
+footer{
+
+   display: flex;
+
+}
+.scrolldown{
+   display: flex;
+   margin-left: 95%;
+   margin-top: 140px;
+   width: 70px;
+}
+
